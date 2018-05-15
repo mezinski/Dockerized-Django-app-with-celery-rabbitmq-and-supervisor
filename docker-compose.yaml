@@ -1,0 +1,42 @@
+version: '2'
+
+services:
+  # Postgres DB
+  db:
+    image: postgres:9.5
+    environment:
+      - POSTGRES_DB=test
+      - POSTGRES_USER=test
+      - POSTGRES_PASSWORD=testing
+    ports:
+      - "5432:5432"
+    expose:
+      - "5432"
+
+  # RabbitMQ 
+  rabbit:
+    image: rabbitmq:3
+    environment:
+      - RABBITMQ_DEFAULT_USER=admin
+      - RABBITMQ_DEFAULT_PASS=mypass
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    expose:
+      - "5672"
+
+  # Django Web Server
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/mysite2
+    command: ./run_web.sh
+    ports:
+      - "8000:8000"
+    expose:
+      - "8000"
+    depends_on:
+      - rabbit
+      - db      

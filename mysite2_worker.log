@@ -1,0 +1,923 @@
+Traceback (most recent call last):
+  File "/usr/local/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.6/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/usr/local/lib/python3.6/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'tasker'
+Traceback (most recent call last):
+  File "/usr/local/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.6/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/usr/local/lib/python3.6/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'tasker'
+Traceback (most recent call last):
+  File "/usr/local/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.6/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/usr/local/lib/python3.6/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'tasker'
+Traceback (most recent call last):
+  File "/usr/local/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.6/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/usr/local/lib/python3.6/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'tasker'
+/usr/local/lib/python3.6/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2018-05-11 18:51:41,297: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+[2018-05-11 18:51:43,308: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+[2018-05-11 18:51:47,330: INFO/MainProcess] Connected to amqp://admin:**@rabbit:5672//
+[2018-05-11 18:51:47,341: INFO/MainProcess] mingle: searching for neighbors
+[2018-05-11 18:51:48,367: INFO/MainProcess] mingle: all alone
+[2018-05-11 18:51:48,391: WARNING/MainProcess] /usr/local/lib/python3.6/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2018-05-11 18:51:48,391: INFO/MainProcess] celery@f78b189d2b8f ready.
+[2018-05-11 18:51:48,392: INFO/MainProcess] Received task: mysite2.core.tasks.create_random_user_accounts[41ffc5bd-0e08-43ee-a8cc-632d40e9010d]  
+[2018-05-11 18:51:48,393: INFO/MainProcess] Received task: mysite2.core.tasks.create_random_user_accounts[aca3f11d-a0a6-4a31-8c2a-3c8e3bea6cf1]  
+[2018-05-11 18:51:48,394: INFO/MainProcess] Received task: mysite2.core.tasks.create_random_user_accounts[c34255d4-0c43-42c7-a816-3c4865a93752]  
+/usr/local/lib/python3.6/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2018-05-11 18:51:58,126: INFO/ForkPoolWorker-3] Task mysite2.core.tasks.create_random_user_accounts[aca3f11d-a0a6-4a31-8c2a-3c8e3bea6cf1] succeeded in 9.628199333004886s: '55 random users created with success!'
+/usr/local/lib/python3.6/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2018-05-11 18:51:59,152: INFO/ForkPoolWorker-2] Task mysite2.core.tasks.create_random_user_accounts[41ffc5bd-0e08-43ee-a8cc-632d40e9010d] succeeded in 10.654494073998649s: '66 random users created with success!'
+/usr/local/lib/python3.6/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2018-05-11 18:51:59,538: INFO/ForkPoolWorker-1] Task mysite2.core.tasks.create_random_user_accounts[c34255d4-0c43-42c7-a816-3c4865a93752] succeeded in 11.040497820999008s: '66 random users created with success!'
+/usr/local/lib/python3.6/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2018-05-11 18:52:42,881: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+[2018-05-11 18:52:44,890: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+[2018-05-11 18:52:48,916: INFO/MainProcess] Connected to amqp://admin:**@rabbit:5672//
+[2018-05-11 18:52:48,948: INFO/MainProcess] mingle: searching for neighbors
+[2018-05-11 18:52:50,018: INFO/MainProcess] mingle: all alone
+[2018-05-11 18:52:50,041: WARNING/MainProcess] /usr/local/lib/python3.6/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2018-05-11 18:52:50,041: INFO/MainProcess] celery@f78b189d2b8f ready.
+/usr/local/lib/python3.6/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2018-05-11 18:57:55,171: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+[2018-05-11 18:57:57,180: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+[2018-05-11 18:58:01,197: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 6.00 seconds...
+
+[2018-05-11 18:58:07,222: INFO/MainProcess] Connected to amqp://admin:**@rabbit:5672//
+[2018-05-11 18:58:07,242: INFO/MainProcess] mingle: searching for neighbors
+[2018-05-11 18:58:08,272: INFO/MainProcess] mingle: all alone
+[2018-05-11 18:58:08,293: WARNING/MainProcess] /usr/local/lib/python3.6/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2018-05-11 18:58:08,293: INFO/MainProcess] celery@f78b189d2b8f ready.
+/usr/local/lib/python3.6/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2018-05-11 18:59:06,399: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+[2018-05-11 18:59:08,407: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+[2018-05-11 18:59:12,419: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 6.00 seconds...
+
+[2018-05-11 18:59:18,450: INFO/MainProcess] Connected to amqp://admin:**@rabbit:5672//
+[2018-05-11 18:59:18,472: INFO/MainProcess] mingle: searching for neighbors
+[2018-05-11 18:59:19,501: INFO/MainProcess] mingle: all alone
+[2018-05-11 18:59:19,553: WARNING/MainProcess] /usr/local/lib/python3.6/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2018-05-11 18:59:19,554: INFO/MainProcess] celery@1feff2fb5253 ready.
+[2018-05-11 18:59:53,737: INFO/MainProcess] Received task: mysite2.core.tasks.create_random_user_accounts[707aa8c6-d383-4c31-8a91-5e9bcfdcd561]  
+/usr/local/lib/python3.6/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2018-05-11 18:59:59,374: INFO/ForkPoolWorker-2] Task mysite2.core.tasks.create_random_user_accounts[707aa8c6-d383-4c31-8a91-5e9bcfdcd561] succeeded in 5.634290180983953s: '55 random users created with success!'
+/usr/local/lib/python3.6/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2018-05-11 19:05:18,238: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+[2018-05-11 19:05:20,246: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+/usr/local/lib/python3.6/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2018-05-11 19:06:30,639: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+[2018-05-11 19:06:32,660: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+[2018-05-11 19:06:36,694: INFO/MainProcess] Connected to amqp://admin:**@rabbit:5672//
+[2018-05-11 19:06:36,711: INFO/MainProcess] mingle: searching for neighbors
+[2018-05-11 19:06:37,754: INFO/MainProcess] mingle: all alone
+[2018-05-11 19:06:37,804: WARNING/MainProcess] /usr/local/lib/python3.6/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2018-05-11 19:06:37,804: INFO/MainProcess] celery@4da9c5d19fe4 ready.
+[2018-05-11 19:07:36,926: INFO/MainProcess] Received task: mysite2.core.tasks.create_random_user_accounts[efc5cd82-3984-44f7-8c49-8b9a14828ae5]  
+/usr/local/lib/python3.6/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2018-05-11 19:07:37,101: ERROR/ForkPoolWorker-2] Task mysite2.core.tasks.create_random_user_accounts[efc5cd82-3984-44f7-8c49-8b9a14828ae5] raised unexpected: ProgrammingError('relation "auth_user" does not exist\nLINE 1: INSERT INTO "auth_user" ("password", "last_login", "is_super...\n                    ^\n',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.ProgrammingError: relation "auth_user" does not exist
+LINE 1: INSERT INTO "auth_user" ("password", "last_login", "is_super...
+                    ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/mysite2/mysite2/core/tasks.py", line 14, in create_random_user_accounts
+    User.objects.create_user(username=username, email=email, password=password)
+  File "/usr/local/lib/python3.6/site-packages/django/contrib/auth/models.py", line 150, in create_user
+    return self._create_user(username, email, password, **extra_fields)
+  File "/usr/local/lib/python3.6/site-packages/django/contrib/auth/models.py", line 144, in _create_user
+    user.save(using=self._db)
+  File "/usr/local/lib/python3.6/site-packages/django/contrib/auth/base_user.py", line 73, in save
+    super().save(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 729, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 759, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 842, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 880, in _do_insert
+    using=using, raw=raw)
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/query.py", line 1125, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1284, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "auth_user" does not exist
+LINE 1: INSERT INTO "auth_user" ("password", "last_login", "is_super...
+                    ^
+
+/usr/local/lib/python3.6/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2018-05-11 19:09:12,175: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+[2018-05-11 19:09:14,190: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+[2018-05-11 19:09:18,202: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 6.00 seconds...
+
+[2018-05-11 19:09:24,229: INFO/MainProcess] Connected to amqp://admin:**@rabbit:5672//
+[2018-05-11 19:09:24,242: INFO/MainProcess] mingle: searching for neighbors
+[2018-05-11 19:09:25,276: INFO/MainProcess] mingle: all alone
+[2018-05-11 19:09:25,295: WARNING/MainProcess] /usr/local/lib/python3.6/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2018-05-11 19:09:25,295: INFO/MainProcess] celery@4da9c5d19fe4 ready.
+[2018-05-11 19:10:08,461: INFO/MainProcess] Received task: mysite2.core.tasks.create_random_user_accounts[71d47bc3-4caa-47ba-84eb-cead6d7f7fec]  
+/usr/local/lib/python3.6/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2018-05-11 19:10:14,770: INFO/ForkPoolWorker-2] Task mysite2.core.tasks.create_random_user_accounts[71d47bc3-4caa-47ba-84eb-cead6d7f7fec] succeeded in 6.306532137998147s: '55 random users created with success!'
+/usr/local/lib/python3.6/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2018-05-11 19:48:19,771: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+[2018-05-11 19:48:21,789: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+[2018-05-11 19:48:25,800: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 6.00 seconds...
+
+[2018-05-11 19:48:31,843: INFO/MainProcess] Connected to amqp://admin:**@rabbit:5672//
+[2018-05-11 19:48:31,866: INFO/MainProcess] mingle: searching for neighbors
+[2018-05-11 19:48:32,900: INFO/MainProcess] mingle: all alone
+[2018-05-11 19:48:32,971: WARNING/MainProcess] /usr/local/lib/python3.6/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2018-05-11 19:48:32,971: INFO/MainProcess] celery@57d8c39de4d7 ready.
+/usr/local/lib/python3.6/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2018-05-11 20:01:39,698: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+[2018-05-11 20:01:41,716: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+[2018-05-11 20:01:45,755: INFO/MainProcess] Connected to amqp://admin:**@rabbit:5672//
+[2018-05-11 20:01:45,771: INFO/MainProcess] mingle: searching for neighbors
+[2018-05-11 20:01:46,801: INFO/MainProcess] mingle: all alone
+[2018-05-11 20:01:46,868: WARNING/MainProcess] /usr/local/lib/python3.6/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2018-05-11 20:01:46,868: INFO/MainProcess] celery@c8e027c219cf ready.
+/usr/local/lib/python3.6/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2018-05-11 20:02:22,454: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+[2018-05-11 20:02:24,462: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+[2018-05-11 20:02:28,473: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 6.00 seconds...
+
+[2018-05-11 20:02:34,501: INFO/MainProcess] Connected to amqp://admin:**@rabbit:5672//
+[2018-05-11 20:02:34,519: INFO/MainProcess] mingle: searching for neighbors
+[2018-05-11 20:02:35,545: INFO/MainProcess] mingle: all alone
+[2018-05-11 20:02:35,606: WARNING/MainProcess] /usr/local/lib/python3.6/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2018-05-11 20:02:35,606: INFO/MainProcess] celery@f2dff1f5c92a ready.
+[2018-05-11 20:02:49,385: INFO/MainProcess] Received task: mysite2.core.tasks.create_random_user_accounts[748a4468-45fb-4269-acd2-3adb01bc1864]  
+/usr/local/lib/python3.6/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2018-05-11 20:02:55,614: INFO/ForkPoolWorker-2] Task mysite2.core.tasks.create_random_user_accounts[748a4468-45fb-4269-acd2-3adb01bc1864] succeeded in 6.227067230007378s: '55 random users created with success!'
+[2018-05-14 20:35:53,460: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/celery/worker/consumer/consumer.py", line 320, in start
+    blueprint.start(self)
+  File "/usr/local/lib/python3.6/site-packages/celery/bootsteps.py", line 119, in start
+    step.start(parent)
+  File "/usr/local/lib/python3.6/site-packages/celery/worker/consumer/consumer.py", line 596, in start
+    c.loop(*c.loop_args())
+  File "/usr/local/lib/python3.6/site-packages/celery/worker/loops.py", line 88, in asynloop
+    next(loop)
+  File "/usr/local/lib/python3.6/site-packages/kombu/async/hub.py", line 354, in create_loop
+    cb(*cbargs)
+  File "/usr/local/lib/python3.6/site-packages/kombu/transport/base.py", line 236, in on_readable
+    reader(loop)
+  File "/usr/local/lib/python3.6/site-packages/kombu/transport/base.py", line 218, in _read
+    drain_events(timeout=0)
+  File "/usr/local/lib/python3.6/site-packages/amqp/connection.py", line 471, in drain_events
+    while not self.blocking_read(timeout):
+  File "/usr/local/lib/python3.6/site-packages/amqp/connection.py", line 477, in blocking_read
+    return self.on_inbound_frame(frame)
+  File "/usr/local/lib/python3.6/site-packages/amqp/method_framing.py", line 55, in on_frame
+    callback(channel, method_sig, buf, None)
+  File "/usr/local/lib/python3.6/site-packages/amqp/connection.py", line 481, in on_inbound_method
+    method_sig, payload, content,
+  File "/usr/local/lib/python3.6/site-packages/amqp/abstract_channel.py", line 128, in dispatch_method
+    listener(*args)
+  File "/usr/local/lib/python3.6/site-packages/amqp/connection.py", line 601, in _on_close
+    self._x_close_ok()
+  File "/usr/local/lib/python3.6/site-packages/amqp/connection.py", line 616, in _x_close_ok
+    self.send_method(spec.Connection.CloseOk, callback=self._on_close_ok)
+  File "/usr/local/lib/python3.6/site-packages/amqp/abstract_channel.py", line 50, in send_method
+    conn.frame_writer(1, self.channel_id, sig, args, content)
+  File "/usr/local/lib/python3.6/site-packages/amqp/method_framing.py", line 166, in write_frame
+    write(view[:offset])
+  File "/usr/local/lib/python3.6/site-packages/amqp/transport.py", line 258, in write
+    self._write(s)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[2018-05-14 20:35:53,602: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+/usr/local/lib/python3.6/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2018-05-15 13:31:54,231: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+[2018-05-15 13:31:56,249: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+[2018-05-15 13:32:00,261: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 6.00 seconds...
+
+[2018-05-15 13:32:06,283: INFO/MainProcess] Connected to amqp://admin:**@rabbit:5672//
+[2018-05-15 13:32:06,307: INFO/MainProcess] mingle: searching for neighbors
+[2018-05-15 13:32:07,346: INFO/MainProcess] mingle: all alone
+[2018-05-15 13:32:07,372: WARNING/MainProcess] /usr/local/lib/python3.6/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2018-05-15 13:32:07,373: INFO/MainProcess] celery@f2dff1f5c92a ready.
+[2018-05-15 13:32:16,278: INFO/MainProcess] Received task: mysite2.core.tasks.create_random_user_accounts[6cac33aa-5c8e-4f1f-9f8b-b193ce182045]  
+/usr/local/lib/python3.6/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2018-05-15 13:32:24,128: INFO/ForkPoolWorker-2] Task mysite2.core.tasks.create_random_user_accounts[6cac33aa-5c8e-4f1f-9f8b-b193ce182045] succeeded in 7.84887341600006s: '60 random users created with success!'
+Traceback (most recent call last):
+  File "/usr/local/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.6/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/usr/local/lib/python3.6/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mysite2/mysite2/__init__.py", line 2, in <module>
+    from .celery import app as celery_app
+  File "/mysite2/mysite2/celery.py", line 5, in <module>
+    from core.tasks import create_random_user_accounts
+ModuleNotFoundError: No module named 'core'
+Traceback (most recent call last):
+  File "/usr/local/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.6/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/usr/local/lib/python3.6/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mysite2/mysite2/__init__.py", line 2, in <module>
+    from .celery import app as celery_app
+  File "/mysite2/mysite2/celery.py", line 5, in <module>
+    from core.tasks import create_random_user_accounts
+ModuleNotFoundError: No module named 'core'
+Traceback (most recent call last):
+  File "/usr/local/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.6/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/usr/local/lib/python3.6/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mysite2/mysite2/__init__.py", line 2, in <module>
+    from .celery import app as celery_app
+  File "/mysite2/mysite2/celery.py", line 5, in <module>
+    from .tasks import create_random_user_accounts
+ModuleNotFoundError: No module named 'mysite2.tasks'
+Traceback (most recent call last):
+  File "/usr/local/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.6/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/usr/local/lib/python3.6/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mysite2/mysite2/__init__.py", line 2, in <module>
+    from .celery import app as celery_app
+  File "/mysite2/mysite2/celery.py", line 5, in <module>
+    from .tasks import create_random_user_accounts
+ModuleNotFoundError: No module named 'mysite2.tasks'
+Traceback (most recent call last):
+  File "/usr/local/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.6/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/usr/local/lib/python3.6/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mysite2/mysite2/__init__.py", line 2, in <module>
+    from .celery import app as celery_app
+  File "/mysite2/mysite2/celery.py", line 5, in <module>
+    from .tasks import create_random_user_accounts
+ModuleNotFoundError: No module named 'mysite2.tasks'
+Traceback (most recent call last):
+  File "/usr/local/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.6/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/usr/local/lib/python3.6/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mysite2/mysite2/__init__.py", line 2, in <module>
+    from .celery import app as celery_app
+  File "/mysite2/mysite2/celery.py", line 5, in <module>
+    from mysite2.core.tasks import create_random_user_accounts
+  File "/mysite2/mysite2/core/tasks.py", line 3, in <module>
+    from django.contrib.auth.models import User
+  File "/usr/local/lib/python3.6/site-packages/django/contrib/auth/models.py", line 2, in <module>
+    from django.contrib.auth.base_user import AbstractBaseUser, BaseUserManager
+  File "/usr/local/lib/python3.6/site-packages/django/contrib/auth/base_user.py", line 47, in <module>
+    class AbstractBaseUser(models.Model):
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 100, in __new__
+    app_config = apps.get_containing_app_config(module)
+  File "/usr/local/lib/python3.6/site-packages/django/apps/registry.py", line 244, in get_containing_app_config
+    self.check_apps_ready()
+  File "/usr/local/lib/python3.6/site-packages/django/apps/registry.py", line 127, in check_apps_ready
+    raise AppRegistryNotReady("Apps aren't loaded yet.")
+django.core.exceptions.AppRegistryNotReady: Apps aren't loaded yet.
+Traceback (most recent call last):
+  File "/usr/local/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.6/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/usr/local/lib/python3.6/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mysite2/mysite2/__init__.py", line 2, in <module>
+    from .celery import app as celery_app
+  File "/mysite2/mysite2/celery.py", line 5, in <module>
+    from mysite2.core.tasks import create_random_user_accounts
+  File "/mysite2/mysite2/core/tasks.py", line 3, in <module>
+    from django.contrib.auth.models import User
+  File "/usr/local/lib/python3.6/site-packages/django/contrib/auth/models.py", line 2, in <module>
+    from django.contrib.auth.base_user import AbstractBaseUser, BaseUserManager
+  File "/usr/local/lib/python3.6/site-packages/django/contrib/auth/base_user.py", line 47, in <module>
+    class AbstractBaseUser(models.Model):
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 100, in __new__
+    app_config = apps.get_containing_app_config(module)
+  File "/usr/local/lib/python3.6/site-packages/django/apps/registry.py", line 244, in get_containing_app_config
+    self.check_apps_ready()
+  File "/usr/local/lib/python3.6/site-packages/django/apps/registry.py", line 127, in check_apps_ready
+    raise AppRegistryNotReady("Apps aren't loaded yet.")
+django.core.exceptions.AppRegistryNotReady: Apps aren't loaded yet.
+Traceback (most recent call last):
+  File "/usr/local/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.6/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/usr/local/lib/python3.6/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mysite2/mysite2/__init__.py", line 2, in <module>
+    from .celery import app as celery_app
+  File "/mysite2/mysite2/celery.py", line 5, in <module>
+    from mysite2.core.tasks import create_random_user_accounts
+  File "/mysite2/mysite2/core/tasks.py", line 3, in <module>
+    from django.contrib.auth.models import User
+  File "/usr/local/lib/python3.6/site-packages/django/contrib/auth/models.py", line 2, in <module>
+    from django.contrib.auth.base_user import AbstractBaseUser, BaseUserManager
+  File "/usr/local/lib/python3.6/site-packages/django/contrib/auth/base_user.py", line 47, in <module>
+    class AbstractBaseUser(models.Model):
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 100, in __new__
+    app_config = apps.get_containing_app_config(module)
+  File "/usr/local/lib/python3.6/site-packages/django/apps/registry.py", line 244, in get_containing_app_config
+    self.check_apps_ready()
+  File "/usr/local/lib/python3.6/site-packages/django/apps/registry.py", line 127, in check_apps_ready
+    raise AppRegistryNotReady("Apps aren't loaded yet.")
+django.core.exceptions.AppRegistryNotReady: Apps aren't loaded yet.
+Traceback (most recent call last):
+  File "/usr/local/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.6/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/usr/local/lib/python3.6/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/usr/local/lib/python3.6/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/usr/local/lib/python3.6/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/mysite2/mysite2/__init__.py", line 2, in <module>
+    from .celery import app as celery_app
+  File "/mysite2/mysite2/celery.py", line 5, in <module>
+    from mysite2.core.tasks import create_random_user_accounts
+  File "/mysite2/mysite2/core/tasks.py", line 3, in <module>
+    from django.contrib.auth.models import User
+  File "/usr/local/lib/python3.6/site-packages/django/contrib/auth/models.py", line 2, in <module>
+    from django.contrib.auth.base_user import AbstractBaseUser, BaseUserManager
+  File "/usr/local/lib/python3.6/site-packages/django/contrib/auth/base_user.py", line 47, in <module>
+    class AbstractBaseUser(models.Model):
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 100, in __new__
+    app_config = apps.get_containing_app_config(module)
+  File "/usr/local/lib/python3.6/site-packages/django/apps/registry.py", line 244, in get_containing_app_config
+    self.check_apps_ready()
+  File "/usr/local/lib/python3.6/site-packages/django/apps/registry.py", line 127, in check_apps_ready
+    raise AppRegistryNotReady("Apps aren't loaded yet.")
+django.core.exceptions.AppRegistryNotReady: Apps aren't loaded yet.
+/usr/local/lib/python3.6/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2018-05-15 14:15:03,248: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+[2018-05-15 14:15:05,256: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+[2018-05-15 14:15:09,285: INFO/MainProcess] Connected to amqp://admin:**@rabbit:5672//
+[2018-05-15 14:15:09,300: INFO/MainProcess] mingle: searching for neighbors
+[2018-05-15 14:15:10,338: INFO/MainProcess] mingle: all alone
+[2018-05-15 14:15:10,424: WARNING/MainProcess] /usr/local/lib/python3.6/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2018-05-15 14:15:10,425: INFO/MainProcess] celery@df49a9516f29 ready.
+[2018-05-15 14:15:15,810: INFO/MainProcess] Received task: mysite2.core.tasks.create_random_user_accounts[c23f1256-e9c7-4760-80ac-a97f8173f785]  
+/usr/local/lib/python3.6/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2018-05-15 14:15:21,099: INFO/ForkPoolWorker-2] Task mysite2.core.tasks.create_random_user_accounts[c23f1256-e9c7-4760-80ac-a97f8173f785] succeeded in 5.286071877999802s: '50 random users created with success!'
