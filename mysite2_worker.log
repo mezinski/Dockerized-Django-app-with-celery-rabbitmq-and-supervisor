@@ -921,3 +921,36 @@ User information: uid=0 euid=0 gid=0 egid=0
 
   uid=uid, euid=euid, gid=gid, egid=egid,
 [2018-05-15 14:15:21,099: INFO/ForkPoolWorker-2] Task mysite2.core.tasks.create_random_user_accounts[c23f1256-e9c7-4760-80ac-a97f8173f785] succeeded in 5.286071877999802s: '50 random users created with success!'
+/usr/local/lib/python3.6/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2018-05-15 14:42:21,413: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+[2018-05-15 14:42:23,434: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+[2018-05-15 14:42:27,444: ERROR/MainProcess] consumer: Cannot connect to amqp://admin:**@rabbit:5672//: [Errno 111] Connection refused.
+Trying again in 6.00 seconds...
+
+[2018-05-15 14:42:33,500: INFO/MainProcess] Connected to amqp://admin:**@rabbit:5672//
+[2018-05-15 14:42:33,516: INFO/MainProcess] mingle: searching for neighbors
+[2018-05-15 14:42:34,549: INFO/MainProcess] mingle: all alone
+[2018-05-15 14:42:34,610: WARNING/MainProcess] /usr/local/lib/python3.6/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2018-05-15 14:42:34,611: INFO/MainProcess] celery@623c3da1be69 ready.
+[2018-05-15 14:46:56,020: INFO/MainProcess] Received task: mysite2.core.tasks.create_random_user_accounts[c1d4c251-1a95-4751-9c31-0f34cf207d80]  
+/usr/local/lib/python3.6/site-packages/celery/platforms.py:795: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+[2018-05-15 14:47:02,961: INFO/ForkPoolWorker-2] Task mysite2.core.tasks.create_random_user_accounts[c1d4c251-1a95-4751-9c31-0f34cf207d80] succeeded in 6.937851621999471s: '55 random users created with success!'
